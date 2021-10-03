@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libcanlib.so -o /home/leiyubiao/dalian/devel/lib/libcanlib.so CMakeFiles/canlib.dir/src/CanHandler.cc.o CMakeFiles/canlib.dir/src/CanMsgDefs.cc.o CMakeFiles/canlib.dir/src/CanCommonFcn.cc.o  -L/home/leiyubiao/dalian/src/control/likecan/dll 

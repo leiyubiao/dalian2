@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<launch>
+        <!--  ************** CAN ***************  -->
+	<node pkg="likecan" type="likecan" name="likecan" output="screen">
+                <rosparam file="$(find likecan)/config/likecan_param.yaml" command="load" />
+  	</node>
+
+        <!--  ************** PID Controller ***************  -->
+	<node pkg="pid_controller" type="pid_controller" name="pid_controller" output="screen">
+                <!-- <rosparam file="$(find PID_controller)/config/pid_param.yaml" command="load" /> -->
+                <rosparam file="$(find pid_controller)/config//pid_param.yaml" command="load" />
+
+        </node>
+
+</launch>

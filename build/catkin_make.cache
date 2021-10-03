@@ -1,0 +1,2 @@
+control/PID_controller:control/likecan:launch:tracking/adas:tracking/messages/control_msgs:tracking/messages/location_msgs:tracking/messages/perception_msgs
+-DCATKIN_DEVEL_PREFIX=/home/leiyubiao/dalian/devel -DCMAKE_INSTALL_PREFIX=/home/leiyubiao/dalian/install -G Unix Makefiles

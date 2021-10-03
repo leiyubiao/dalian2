@@ -1,0 +1,8 @@
+prefix=/home/leiyubiao/dalian/devel
+
+Name: location_msgs
+Description: Description of location_msgs
+Version: 1.0.0
+Cflags: -I/home/leiyubiao/dalian/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

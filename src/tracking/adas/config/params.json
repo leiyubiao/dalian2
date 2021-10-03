@@ -1,0 +1,18 @@
+{
+    "factor_params":{
+        "k1": 0.69,
+        "k2": 5.02
+    },
+    "vehicle_params":{
+        "L1": 1.5,
+        "L2": 1.76,
+        "ts":0.02,
+        "steer_max_degree": 45
+    },    
+    "delay_params":{
+        "sys_delay": 0.5
+    },  
+
+    "max_speed": 20.0,
+    "min_speed": 5.0
+}

@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/sjtuzq/flm_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/sjtuzq/flm_ws/src/tracking/adas/include/**",
+        "/home/sjtuzq/flm_ws/src/control/likecan/include/**",
+        "/home/sjtuzq/flm_ws/src/control/PID_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

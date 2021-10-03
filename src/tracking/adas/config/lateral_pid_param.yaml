@@ -1,0 +1,59 @@
+#速度上下限
+MAX_ACCEL: 5.0
+MIN_ACCEL: -6.5
+
+# 侧向控制PID参数
+/control/lateral/kp: 0.05
+/control/lateral/ki: 0
+/control/lateral/kd: 0
+
+# 采集地图的原点经纬度
+  
+# route_1  121.47922890 30.95413870
+# 121.47960670 30.95427970
+# 121.47960670 30.95427970
+# 121.47966550 30.95444000
+# 121.47966550 30.95444000
+# 121.47968160 30.95440220
+# 121.47960480 30.95430160
+# 121.47965280 30.95441730
+# 121.47966630 30.95445360
+# 121.47962820 30.95443400
+# 121.1947510 30.95443400
+
+/map/latitude: 31.373085
+# 原点的经度
+/map/longitude: 121.1948546
+# 原点的高度
+/map/height: 16.125
+
+# 路径保存
+/control/track_path: /route_data.bin
+
+# 系数 k1, k2
+/control/k1: 0.15
+/control/k2: 0.202
+
+/control/ka: 1.0
+/control/kb: 0.0
+
+# 车辆参数 L1， L2, ts, steer_max_degree; L1为前半车长， L2为后半车长, ts为更新时间
+/control/vehicle_param/L1: 0.7
+/control/vehicle_param/L2: 0.85
+/control/vehicle_param/ts: 0.02
+/control/vehicle_param/steer_max_degree: 40
+
+# 最大速度和最小速度
+/control/max_speed: 1.0
+/control/min_speed: 5.0
+
+# paramaters for INS/GPS installation error
+# 组合导航在车辆坐标系下的x轴坐标,单位米
+/calibration/insgps_x: 0.0
+# 组合导航在车辆坐标系下的y轴坐标,单位米
+/calibration/insgps_y: 0.5 #7.4
+
+## paramaters for saveroutepoint
+# 采点间距,单位米
+/map/equal_length: 0.1
+

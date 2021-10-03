@@ -1,0 +1,4 @@
+<launch>
+   <rosparam command="load" file="$(find adas_control)/config/lateral_pid_param.yaml"/>
+   <node pkg="adas_control" type="map_generator" name="map_generator" output="screen"/>
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+   <node pkg="likecan" type="likecan" name="likecan" output="screen" respawn="true">
+  	</node>
+	<node pkg="pid_controller" type="pid_controller" name="pid_controller" output="screen" respawn="true">
+      <rosparam file="/home/sjtuzq/flm_ws/src/control/PID_controller/config/pid_param.yaml" command="load" />
+   </node>
+   <node pkg="adas_control" type="map_tracking" name="map_tracking" output="screen" respawn="true">
+      <rosparam command="load" file="/home/sjtuzq/flm_ws/src/tracking/adas/config/lateral_pid_param.yaml"/>
+   </node>
+</launch>
+

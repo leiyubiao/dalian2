@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/leiyubiao/dalian/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/leiyubiao/dalian/src/tracking/adas/include/**",
+        "/home/leiyubiao/anhui/src/learning/include/**",
+        "/home/leiyubiao/dalian/src/control/likecan/include/**",
+        "/home/leiyubiao/dalian/src/control/PID_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

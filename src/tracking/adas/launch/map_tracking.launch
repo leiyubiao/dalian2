@@ -1,0 +1,8 @@
+<launch>
+
+   <rosparam command="load" file="$(find adas_control)/config/lateral_pid_param.yaml"/>
+   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find adas_control)/rviz/visual.rviz" required="true" />
+   <node pkg="adas_control" type="map_tracking" name="map_tracking" output="screen"/>
+   
+</launch>
+

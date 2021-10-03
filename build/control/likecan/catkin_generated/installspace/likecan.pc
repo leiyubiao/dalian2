@@ -1,0 +1,8 @@
+prefix=/home/leiyubiao/dalian/install
+
+Name: likecan
+Description: Description of likecan
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs location_msgs perception_msgs control_msgs

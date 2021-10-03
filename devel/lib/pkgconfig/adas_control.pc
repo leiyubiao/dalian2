@@ -1,0 +1,8 @@
+prefix=/home/leiyubiao/dalian/devel
+
+Name: adas_control
+Description: Description of adas_control
+Version: 0.0.1
+Cflags: -I/home/leiyubiao/dalian/src/tracking/adas/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs location_msgs control_msgs geometry_msgs
